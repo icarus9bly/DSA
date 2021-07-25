@@ -30,9 +30,32 @@ None None None None'''
 root.left.left = Tree(4)
 '''4 becomes left child of 2
 		1
-	/	 \
-	2		 3
-	/ \	 / \
-4 None None None
-/ \
+	   / \
+	  /   \
+	 2	   3
+    / \    /\
+   /   \  /  \
+  4 None None None
+ / \
 None None'''
+
+# rootNonOOP = [1, [2, [4, None, None], None], [3, None, None]]
+
+print(root.val)
+
+
+# iteratively
+def inorder_traversal(root):
+    res, stack = [], []
+    while True:
+        while root:
+            stack.append(root)
+            root = root.left
+        if not stack:
+            return res
+        node = stack.pop()
+        res.append(node.val)
+        root = node.right
+
+
+print(inorder_traversal(root))

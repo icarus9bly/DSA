@@ -86,4 +86,4 @@ def change_machine(change):
 # payment = float(input())
 # change = register(item_to_buy, payment)
 # print('Your change is: $' + str(change))
-change_machine(15.78)
+change_machine(30)
