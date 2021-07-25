@@ -17,6 +17,7 @@ def addBinary(a, b):
             j -= 1  # move pointer to left side
         # Take the remainder dividing by 2 and store in result string i.e. 1%2=1.
         # Because will have either 0 or 1 in our carry so if 0: 0%2=0, 1: 1%2=1, 2: 2%2=0
+        # if our carry is 1+1=2 which is 10 in binary, we want to keep the 0 in res and move 1 to carry
         res = str(carry % 2) + res
         carry //= 2  # Divide carry by 2 and round off the quoitent to floor i.e. 1/2=0.5=0
     return res
