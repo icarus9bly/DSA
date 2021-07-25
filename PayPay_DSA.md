@@ -52,17 +52,17 @@
           which column will you use to shard your DB and why
         - How spring IOC works what benefits does it provide
 
-## Product Security Engineer Interview
+# General
 
-1st is the Hirevue Coding challenge of your choice. What I received was Add Binary number and Cash register program. Was given 120 (Max) mins to complete both the solutions.
-2nd was Technical interview. Beware, the Job Description and the interview is way apart, They want someone with an overall technical capability.
+    - 1st is the Hirevue Coding challenge of your choice. What I received was Add Binary number and Cash register program. Was given 120 (Max) mins to complete both the solutions.
+    - 2nd was Technical interview. Beware, the Job Description and the interview is way apart, They want someone with an overall technical capability.
 
-implement binary search in a sorted array.
-Fibonacci series
-https://github.com/ombharatiya/FAANG-Coding-Interview-Questions#faang-must-do-problems
-Q1: Return the kth largest value in an unsorted array. (Merge sort or quick sort)
-Create a module in any language that implements the LCU (least commonly used) cache data structure. With O(1) insertion, retrieval and removal.
-What's the time complexity to insert and retrieve in a hashmap? In an array? Worst case? Elaborate on the amortized time complexity for array.
-How can you guarantee consistency in the database transactions? If you have a mutex?  
-What's the difference between hashmap and hashtable?  
-https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
+    - implement binary search in a sorted array.
+    - Fibonacci series
+    - https://github.com/ombharatiya/FAANG-Coding-Interview-Questions#faang-must-do-problems
+    Q1: Return the kth largest value in an unsorted array. (Merge sort or quick sort)
+    Create a module in any language that implements the LCU (least commonly used) cache data structure. With O(1) insertion, retrieval and removal.
+    What's the time complexity to insert and retrieve in a hashmap? In an array? Worst case? Elaborate on the amortized time complexity for array.
+    How can you guarantee consistency in the database transactions? If you have a mutex?
+    What's the difference between hashmap and hashtable?
+    https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
