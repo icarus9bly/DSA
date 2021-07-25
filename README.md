@@ -15,6 +15,7 @@
   - [3,[4,[3,[],[]],[]],[]] # If left child is not empty the OG branch goes down to be the left child of newly inserted branch.
 
 # Tree Traversels:
+- left and right will always be the same just visiting root changes with prefix for e.g. pre: n|r, In: |nr, Post: |rn (|-> left subtree, n-> node, r-> right subtree)
 - Pre-order: Visit the root node first, then the left child, then the right child
 - In-order: Visit the left child first, then the root, then the right child
 - Post-order: Visit the left child first, then the right child, then the root node.
