@@ -7,7 +7,7 @@
 # Recursion:
 - import functools; functools.lru_cache() # For Memoization/caching
 - recursion makes use of call stack.
-- 
+- Call stack remembers all the variables in a function call and when recusrion hits the base case all variables are poped off frame by frame doing some operation.
 # Tree:
 - Types:
   - Full: If the tree has either two child nodes or none.
