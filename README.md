@@ -4,6 +4,10 @@
 - https://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/
 - https://www.youtube.com/watch?v=BHB0B1jFKQc | Binary Tree
 
+# Recursion:
+- import functools; functools.lru_cache() # For Memoization/caching
+- recursion makes use of call stack.
+- 
 # Tree:
 - Types:
   - Full: If the tree has either two child nodes or none.
