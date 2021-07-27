@@ -1,9 +1,9 @@
 # Resources:
 
-- https://sapient.udemy.com/course/python-for-data-structures-algorithms-and-interviews/
-- https://github.com/ombharatiya/FAANG-Coding-Interview-Questions
+- [DSA Course python udemy](https://sapient.udemy.com/course/python-for-data-structures-algorithms-and-interviews/)
+- [FAANG-Coding-Questions](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions)
 - https://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/
-- https://www.youtube.com/watch?v=BHB0B1jFKQc | Binary Tree
+- [Binary Tree](https://www.youtube.com/watch?v=BHB0B1jFKQc)
 - [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
 
 # Abstract data types:
