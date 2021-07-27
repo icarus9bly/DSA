@@ -23,3 +23,6 @@
 - Pre-order: Visit the root node first, then the left child, then the right child
 - In-order: Visit the left child first, then the root, then the right child
 - Post-order: Visit the left child first, then the right child, then the root node.
+
+# Binary Heap:
+- If we want the **"largest"** item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
