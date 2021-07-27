@@ -46,4 +46,4 @@
   3. Remove/peeking a item:
   - Replace the root parent with last child.
   - Replace the new parent with child nodes by comparing it with child nodes.
-- Constant time 0(1) for peeking, for inserting 0(nlogn)
+- Constant time 0(1) for peeking, for inserting 0(logn)
