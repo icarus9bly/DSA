@@ -33,3 +33,7 @@
 
 # Binary Heap:
 - If we want the **"largest"** item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
+- Insert in heap (Top to bottom left to right)
+- Restore the heap comparing it inserted item with parent node and sorting.
+- Remove/peeking a item: Replace the parent with last child.
+- 
