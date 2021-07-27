@@ -38,8 +38,6 @@
 - Post-order: Visit the left child first, then the right child, then the root node.
 
 # Binary Heap:
-
-- If we want the **"largest"** item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
 - Steps to follow:
   1. Insert in heap (Top to bottom left to right)
   2. Restore the heap by comparing inserted item with parent node and sorting.
@@ -47,3 +45,4 @@
   - Replace the root parent with last child.
   - Replace the new parent with child nodes by comparing it with child nodes.
 - Constant time **0(1)** for peeking, for inserting and removing and item **0(logn)**
+- If we want the **"largest"** k item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
