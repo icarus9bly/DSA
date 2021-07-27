@@ -44,5 +44,5 @@
   1. Insert in heap (Top to bottom left to right)
   2. Restore the heap by comparing inserted item with parent node and sorting.
   3. Remove/peeking a item:
-  - Replace the parent with last child.
-  - Replace the new parent with child nodes by comparing child nodes and then comparing with parent node.
+  - Replace the root parent with last child.
+  - Replace the new parent with child nodes by comparing it with child nodes.
