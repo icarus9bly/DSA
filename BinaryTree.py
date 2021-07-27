@@ -8,6 +8,9 @@ class Tree:
         self.right = None
         self.val = key
 
+    def __str__(self):
+        return str(self.val)
+
 
 # create root
 root = Tree(1)
@@ -41,11 +44,11 @@ None None'''
 
 # rootNonOOP = [1, [2, [4, None, None], None], [3, None, None]]
 
-print(root.val)
+print(f'Top root node val: {root.val}')
 
 
 # iteratively
-def inorder_traversal(root):
+def inorder_traversal_iter(root):
     res, stack = [], []
     while True:
         while root:
@@ -58,4 +61,17 @@ def inorder_traversal(root):
         root = node.right
 
 
-print(inorder_traversal(root))
+# Recursively
+res = []
+
+
+def inorder_traversal_recurse(root):
+    if root:
+        inorder_traversal_recurse(root.left)
+        res.append(root.val)
+        inorder_traversal_recurse(root.right)
+    return res
+
+
+print(inorder_traversal_iter(root))
+print(inorder_traversal_recurse(root))
