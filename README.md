@@ -8,7 +8,7 @@
 - Data types we define with a set of roles to model our data like stacks and queues.
 - **Stack** have rules push and pop
 - **Queue** have rules enqueue and dequeue.
-- **Priority queue** have rules insert_with_priority, pull_highest_priority.
+- **Priority queue** have rules insert_with_priority, pull_highest_priority_item.
 
 
 # Recursion:
