@@ -4,6 +4,11 @@
 - https://nbviewer.jupyter.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/
 - https://www.youtube.com/watch?v=BHB0B1jFKQc | Binary Tree
 
+# Abstract data types:
+- Data types we define with a set of roles to model our data like stacks and queues.
+- Stack have rules push and pop, queue have rules enqueue and dequeue.
+
+
 # Recursion:
 - import functools; functools.lru_cache() # For Memoization/caching
 - recursion makes use of call stack.
