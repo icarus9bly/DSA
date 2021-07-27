@@ -45,4 +45,4 @@
   - Replace the root parent with last child.
   - Replace the new parent with child nodes by comparing it with child nodes.
 - Constant time **0(1)** for peeking, for inserting and removing and item **0(logn)**
-- If we want the **"largest"** k item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
+- **Pro-tip:** If we want the **"largest"** kth item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
