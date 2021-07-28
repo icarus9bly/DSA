@@ -64,6 +64,9 @@ def inorder_traversal_iter(root):
 # Recursively
 res = []
 
+root2 = Tree(5)
+root2.right = Tree(3)
+
 
 def inorder_traversal_recurse(root):
     if root:
@@ -74,4 +77,4 @@ def inorder_traversal_recurse(root):
 
 
 print(inorder_traversal_iter(root))
-print(inorder_traversal_recurse(root))
+print(inorder_traversal_recurse(root2))
