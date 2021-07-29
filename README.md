@@ -29,6 +29,15 @@
 - Insert left child:
   - [3,[4,[],[]],[]] # If left child is empty
   - [3,[4,[3,[],[]],[]],[]] # If left child is not empty the OG branch goes down to be the left child of newly inserted branch.
+- Array representation of Binary Tree:
+  - In this array arr = [3,9,20,null,null,15,7], 3 is the root node, 9 and 20 are left and right, null,null,15,7 are filled left to right below 9 and 20.
+  - Formula:
+    - Where n is the current index starting from 0.
+    - These only holds for complete binary tree.
+    -  To find out parent of current node: (n-1)/2 
+    -  To find out children:
+      -   left child: (2*n)+1
+      -   right child: (2*n)+2
 
 # Tree Traversels:
 
@@ -46,3 +55,11 @@
   - Replace the new parent with child nodes by comparing it with child nodes.
 - Constant time **0(1)** for peeking, for inserting and removing and item **0(logn)**
 - **Pro-tip:** If we want the **"largest"** kth item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
+
+# Sort:
+- **Quick Sort:**
+  - Two subroutines are:
+    - Split
+    - Partioning to choose a pivot (Pivot is the item we want to find the position of.)
+  - Select Left(arr[0]) and Right(arr[-1])
+  - Randomaly select pivot
