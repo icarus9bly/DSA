@@ -29,6 +29,14 @@
 - Insert left child:
   - [3,[4,[],[]],[]] # If left child is empty
   - [3,[4,[3,[],[]],[]],[]] # If left child is not empty the OG branch goes down to be the left child of newly inserted branch.
+- Array representation of Binary Tree:
+  - In this array arr = [3,9,20,null,null,15,7], 3 is the root node, 9 and 20 are left and right, null,null,15,7 are filled left to right below 9 and 20.
+  - Formula:
+    - Where n is the current index starting from 0.
+    -  To find out parent of current node: (n-1)/2 
+    -  To find out children:
+      -   left child: (2*n)+1
+      -   right child: (2*n)+2
 
 # Tree Traversels:
 
