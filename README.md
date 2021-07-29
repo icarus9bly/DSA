@@ -46,3 +46,11 @@
   - Replace the new parent with child nodes by comparing it with child nodes.
 - Constant time **0(1)** for peeking, for inserting and removing and item **0(logn)**
 - **Pro-tip:** If we want the **"largest"** kth item we want **"min-heap"** and if **"smallest"** item we want **"max-heap"**
+
+# Sort:
+- **Quick Sort:**
+  - Two subroutines are:
+    - Split
+    - Partioning to choose a pivot (Pivot is the item we want to find the position of.)
+  - Select Left(arr[0]) and Right(arr[-1])
+  - Randomaly select pivot
