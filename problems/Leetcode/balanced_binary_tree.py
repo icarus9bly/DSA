@@ -24,12 +24,18 @@ class Solution:
 
     def isBalanced(self, root: TreeNode) -> bool:
         # base case
-        if root == None:
-            return {"height": -1, "balanced": True}
-        difference = abs(self.isBalanced(root.left)[
-                         "height"]-self.isBalanced(root.right)["height"])
-        if difference <= 1:
-            return {"height": 45, "balanced": True}
+        height = 0
+
+        def recurse(root, height):
+            left_h, right_h = height, height
+            if root == None:
+                height = -1
+                return height
+            while left_h == right_h:
+                left_h = recurse(root.left, height)
+                right_h = recurse(root.right, height)
+
+        recurse(root, height)
 
 
 soli = Solution()
