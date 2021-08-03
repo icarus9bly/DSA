@@ -95,3 +95,4 @@ Following is a list of some common asymptotic notations −
 | cubic	|	Ο(n<sup>3</sup>) | 
 | polynomial	|	n<sup>Ο(1)</sup> |
 | exponential	|	2<sup>Ο(n)</sup> |
+- In Binary Tree nlogn is usually the complexity because the tree gets divided in half and there are n operations done on each level.
