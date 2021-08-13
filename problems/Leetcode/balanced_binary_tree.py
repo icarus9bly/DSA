@@ -14,6 +14,7 @@ rooti.left = TreeNode(9)
 rooti.right = TreeNode(20)
 rooti.right.left = TreeNode(15)
 rooti.right.right = TreeNode(7)
+# rooti.right.right.right = TreeNode(7)
 
 
 class Solution:
@@ -22,21 +23,20 @@ class Solution:
     2: what's my height
     """
 
-    def isBalanced(self, root: TreeNode) -> bool:
-        # base case
-        height = 0
+    def isBalanced(self, root):
 
-        def recurse(root, height):
-            left_h, right_h = height, height
-            if root == None:
-                height = -1
-                return height
-            while left_h == right_h:
-                left_h = recurse(root.left, height)
-                right_h = recurse(root.right, height)
+        def check(root):
+            # base case
+            if root is None:
+                return 0
+            left = check(root.left)
+            right = check(root.right)
+            if left == -1 or right == -1 or abs(left - right) > 1:
+                return -1
+            return 1 + max(left, right)
 
-        recurse(root, height)
+        return check(root) != -1
 
 
 soli = Solution()
-soli.isBalanced(rooti)
+print(soli.isBalanced(rooti))
