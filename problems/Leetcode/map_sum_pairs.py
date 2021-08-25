@@ -46,4 +46,4 @@ class MapSum(object):
         root = self.get_siblings(prefix)
         if root:
             return self.get_sum(root)
-        return 0
+        return 0    
