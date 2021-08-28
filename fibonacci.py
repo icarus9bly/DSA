@@ -5,6 +5,17 @@ def fib(N):
     else:
         return fib(N-1) + fib(N-2)
 
+# Recursively memoized
+def fib_m(N, cache=None):
+    if N <= 1:
+        return N
+    else:
+        if cache is None: cache = {}
+        if N in cache: return cache[N]
+        result=fib(N-1) + fib(N-2)
+        cache[N]=result
+        return result
+
 
 # Iteratively
 def fib(N):
@@ -17,3 +28,4 @@ def fib(N):
 
 
 print(fib(50))
+print(fib_m(50))
