@@ -26,6 +26,7 @@ def fib(N):
         res.append(sum(res[-2:]))
     return res[-1]
 
+# check if our module is imported or used as script
 if __name__ == '__main__':
     print(fib(50))
     print(fib_m(50))
