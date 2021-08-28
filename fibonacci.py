@@ -26,6 +26,6 @@ def fib(N):
         res.append(sum(res[-2:]))
     return res[-1]
 
-
-print(fib(50))
-print(fib_m(50))
+if __name__ == '__main__':
+    print(fib(50))
+    print(fib_m(50))
