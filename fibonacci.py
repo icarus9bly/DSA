@@ -27,6 +27,8 @@ def fib(N):
     return res[-1]
 
 # check if our module is imported or used as script
+# If __name__ is any module it is assumed that it is meant to be used as script on library
+
 if __name__ == '__main__':
     print(fib(50))
     print(fib_m(50))
