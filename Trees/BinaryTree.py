@@ -5,7 +5,7 @@ class BinaryTree:
         self.right = None
 
     def insert(self, data):
-        if data:
+        if self.data:
             if data < self.data:
                 if self.left:
                     self.left.insert(data)
