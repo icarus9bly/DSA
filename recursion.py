@@ -10,3 +10,4 @@ def factorial(num):
 
 
 print(factorial(5))
+print(factorial(998))
